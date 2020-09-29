@@ -101,8 +101,8 @@ plugins:
   - jekyll-seo-tag
 
 # Publication settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rbec276.github.io/ethereal_site/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "ethereal_site" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: HTML5 Up
 copyright:
   holder: Untitled
