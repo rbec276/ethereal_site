@@ -1,0 +1,13 @@
+
+<!-- add {{ include.style.header.color }} to class to put a background color behind the text -->
+<div class="intro {{ include.style.header.joined }}" >
+    <h2 class="major">{{ include.header.title }}</h2>
+    <p>{{ include.header.description }}</p>
+</div>
+{{ include.content }}
+
+<div
+class="image filtered span-3-25"
+data-position="{{ include.style.background.position | default: '25% 50%' }}">
+    <img class="lazy-loading" src="{{ include.style.background.image.placeholder | absolute_url }}" data-src="{{ include.style.background.image.content | absolute_url }}" alt="" />
+</div>

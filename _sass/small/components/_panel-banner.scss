@@ -1,0 +1,37 @@
+@include breakpoint('<=small') {
+    .panel.banner {
+        .content {
+            @include padding($pad-small-tb, $pad-small-lr);
+            @include vendor('flex-basis', '60%');
+
+            > .actions:last-child {
+                margin-bottom: _size(element-margin);
+            }
+        }
+
+        .image {
+            @include vendor('flex-basis', '40%');
+        }
+    }
+
+    @include orientation(portrait) {
+        .panel.banner {
+            .content {
+                @include vendor('flex-basis', 'auto');
+            }
+
+            .image {
+                @include vendor('flex-basis', 'auto');
+                height: 18rem;
+            }
+
+            &.left {
+                @include vendor('flex-direction', 'column');
+            }
+
+            &.right {
+                @include vendor('flex-direction', 'column-reverse');
+            }
+        }
+    }
+}

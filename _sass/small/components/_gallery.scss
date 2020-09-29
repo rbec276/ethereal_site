@@ -1,0 +1,38 @@
+@include breakpoint('<=small') {
+    .gallery {
+        @include vendor('flex-direction', 'column');
+        height: auto;
+
+        > * {
+            height: auto;
+            width: 100%;
+        }
+
+        .image {
+            width: 100%;
+            height: 40rem;
+        }
+
+        .group {
+            @include spans(33.33333%);
+
+            .image {
+                height: 20rem;
+            }
+        }
+    }
+}
+
+@include breakpoint('<=xsmall') {
+    .gallery {
+        .image {
+            height: 30rem;
+        }
+
+        .group {
+            .image {
+                height: 12.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@include breakpoint('<=small') {
+    html {
+        height: auto;
+    }
+
+    body {
+        @include vendor('flex-direction', 'column');
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+@include breakpoint('<=xsmall') {
+    html, body {
+        min-width: 320px;
+    }
+}

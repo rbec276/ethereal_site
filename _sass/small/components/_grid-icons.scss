@@ -1,0 +1,29 @@
+ul.grid-icons {
+
+    @include breakpoint('<=small') {
+        @include vendor('justify-content', 'flex-start');
+        width: 100% !important;
+        margin: 0;
+
+        .icon {
+            &:before {
+                width: 4.5rem;
+                height: 4.5rem;
+                line-height: 4.5rem;
+                font-size: 1.75rem;
+            }
+        }
+
+        > li {
+            margin: 1rem 0 0 1rem !important;
+
+            &:before {
+                display: none !important;
+            }
+
+            &:after {
+                display: none !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+$pad: _size(pad);
+$pad-small-tb: _size(pad-small-tb);
+$pad-small-lr: _size(pad-small-lr);
+
+@include breakpoint('<=small') {
+    .panel {
+        @include vendor('flex-direction', 'column');
+        height: auto;
+        width: 100vw !important;
+
+        > * {
+            @include panel-colors-small;
+        }
+
+        > .intro {
+            width: 100vw !important;
+            @include padding($pad-small-tb, $pad-small-lr);
+
+            &.joined {
+                padding-bottom: 0;
+                padding-right: $pad-small-lr;
+
+                & + .inner {
+                    padding-top: 0;
+                    padding-left: $pad-small-lr;
+                }
+            }
+        }
+
+        > .inner {
+            width: 100vw !important;
+            @include padding($pad-small-tb, $pad-small-lr);
+
+            &.columns {
+                @include vendor('flex-direction', 'column');
+
+                > * {
+                    margin-left: 0;
+                    margin-top: 0;
+                }
+
+                > :first-child {
+                    margin-top: 0;
+                }
+
+                &.divided {
+                    > * {
+                        margin-left: 0;
+                        margin-top: ($pad-small-lr * 2);
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: auto;
+                            left: $pad-small-lr;
+                            width: calc(100% - #{$pad-small-lr * 2});
+                            height: 2px;
+                            margin-left: 0;
+                            margin-top: ($pad-small-lr * -1);
+                        }
+                    }
+
+                    > :first-child {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+
+        @include spans-small(_size(span-fixed));
+
+        &.small,
+        &.medium,
+        &.large {
+            @include spans-small(_size(span-variable));
+        }
+
+        @include panel-colors-small;
+    }
+}

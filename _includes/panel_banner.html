@@ -1,0 +1,23 @@
+<!-- Banner -->
+<div class="content {{ include.style.header.color | default: 'color0' }} span-3-75">
+    
+    <!-- Class major adds a line break after the header. Modify h2 tag to change the size of the subtitle header. -->
+    <h1 class="major">{{ include.header.title }}
+        <h2>{{ include.header.subtitle }}</h2></h1>
+    
+    <p>{{ include.header.description }}</p>
+    <ul class="actions">
+        <li>
+            <a
+            href="{{ include.header.button.target }}"
+            class="button primary color1 circle icon solid fa-angle-right">
+                {{ include.header.button.label | default: 'Next'}}
+            </a>
+        </li>
+    </ul>
+</div>
+<div
+class="image filtered span-1-75"
+data-position="{{ include.style.background.position | default: '25% 25%' }}">
+    <img class="lazy-loading" src="{{ include.style.background.image.placeholder | absolute_url }}" data-src="{{ include.style.background.image.content | absolute_url }}" alt="" />
+</div>

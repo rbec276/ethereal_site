@@ -1,0 +1,11 @@
+html {
+    @include breakpoint('<=xlarge') {
+        font-size: 12pt;
+        font-size: 1.1vmax;
+    }
+
+    @include breakpoint('<=large') {
+        font-size: 11pt;
+        font-size: 1.5vmax;
+    }
+}

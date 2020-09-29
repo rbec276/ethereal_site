@@ -1,0 +1,9 @@
+#page-wrapper {
+    @include breakpoint('short') {
+        padding: 6vh;
+    }
+
+    @include breakpoint('xshort') {
+        padding: 0;
+    }
+}

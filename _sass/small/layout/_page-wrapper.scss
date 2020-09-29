@@ -1,0 +1,12 @@
+@include breakpoint('<=small') {
+    #page-wrapper {
+        height: auto;
+        padding: 1rem;
+    }
+}
+
+@include breakpoint('<=xsmall') {
+    #page-wrapper {
+        padding: 0;
+    }
+}

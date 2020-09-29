@@ -1,0 +1,67 @@
+@include breakpoint('<=small') {
+    html {
+        font-size: 12pt;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+        line-height: 1.2;
+
+        &.major {
+            margin: 0 0 (_size(element-margin) * 1.75) 0;
+
+            &:after {
+                bottom: -1.325rem;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+
+        &.major {
+            margin: 0 0 (_size(element-margin) * 1.325) 0;
+
+            &:after {
+                bottom: -1.2rem;
+            }
+        }
+    }
+
+    h3 {
+        font-size: 1rem;
+
+        &.major {
+            margin: 0 0 (_size(element-margin) * 1.25) 0;
+
+            &:after {
+                bottom: -0.75rem;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.9rem;
+    }
+
+    h6 {
+        font-size: 0.7rem;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        br {
+            display: none;
+        }
+    }
+}
+
+@include breakpoint('<=xxsmall') {
+    html {
+        font-size: 11pt;
+    }
+}

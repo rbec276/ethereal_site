@@ -1,0 +1,16 @@
+I"n<div class="gallery">
+    <div class="group span-3">
+        <a href="http://localhost:4000/assets/images/content/ori-water.gif" class="image filtered span-3" data-position="bottom"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/ori-water.gif" data-src="http://localhost:4000/assets/images/content/ori-water.gif" alt="" /></a>
+        <a href="http://localhost:4000/assets/images/content/ori-gallery3.jpg" class="image filtered span-1-5" data-position="center"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/ori-gallery3.jpg" data-src="http://localhost:4000/assets/images/content/ori-gallery3.jpg" alt="" /></a>
+        <a href="http://localhost:4000/assets/images/content/ori-gallery8.jpg" class="image filtered span-1-5" data-position="bottom"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/gallery8.jpg" data-src="http://localhost:4000/assets/images/content/ori-gallery8.jpg" alt="" /></a>
+    </div>
+    <a href="http://localhost:4000/assets/images/content/Wellspring_Glades.png" class="image filtered span-2-5" data-position="top"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/Wellspring_Glades.png" data-src="http://localhost:4000/assets/images/content/Wellspring_Glades.png" alt="" /></a>
+    <div class="group span-4-5">
+        <a href="http://localhost:4000/assets/images/content/ori-gallery7.jpg" class="image filtered span-3" data-position="center"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/ori-gallery7.jpg" data-src="http://localhost:4000/assets/images/content/ori-gallery7.jpg" alt="" /></a>
+        <a href="http://localhost:4000/assets/images/content/ori-gallery10.jpg" class="image filtered span-1-5" data-position="center"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/ori-gallery10.jpg" data-src="http://localhost:4000/assets/images/content/ori-gallery10.jpg" alt="" /></a>
+        <a href="http://localhost:4000/assets/images/content/ori-gallery9.jpg" class="image filtered span-1-5" data-position="left"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/ori-gallery9.jpg" data-src="http://localhost:4000/assets/images/content/ori-gallery9.jpg" alt="" /></a>
+        <a href="http://localhost:4000/assets/images/content/origif.gif" class="image filtered span-3" data-position="top"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/origif.gif" data-src="http://localhost:4000/assets/images/content/origif.gif" alt="" /></a>
+    </div>
+    <a href="http://localhost:4000/assets/images/content/lost-grove.png" class="image filtered span-2-5" data-position="right"><img class="lazy-loading" src="http://localhost:4000/assets/images/placeholder/lost-grove.png" data-src="http://localhost:4000/assets/images/content/lost-grove.png" alt="" /></a>
+</div>
+:ET
