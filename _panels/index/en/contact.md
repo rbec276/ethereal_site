@@ -7,7 +7,7 @@ type: contact
 header:
     title: Download
     description: >-
-           To play Ori and the Blind Forest, <a href="https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/" target="_top">click here</a>
+           Help an unlikely hero find courage and confront a dark nemesis to save the forest of Nibel. To play Ori and the Blind Forest, <a href="https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/" target="_top">click here</a>
 style:
     background:
         color: color4-alt
